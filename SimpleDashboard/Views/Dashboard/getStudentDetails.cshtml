@@ -1,0 +1,8 @@
+﻿@model List<StudentsModel>;
+@foreach(var student in Model){
+    <p>
+        Student_Id: <small>@student.studentId</small><br>
+        Student_Name: <small>@student.Name</small><br>
+        Student_Mark: <small>@student.Marks</small><br>
+    </p>
+}

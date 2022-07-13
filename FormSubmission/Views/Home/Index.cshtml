@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @model FormSubmission.Models.Adhaar;
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        @Html.Label("Name:")<br/>
+        @Html.TextBoxFor(m=>m.Name);<br />
+        @Html.Label("Adhaar Number:")<br/>
+        @Html.TextBoxFor(m=>m.AdhaarNo);<br />
+        <input type="submit" value="Save">
+    }
+</div>

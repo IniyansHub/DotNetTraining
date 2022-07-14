@@ -6,6 +6,7 @@ namespace FormSubmission.Controllers
 {
     public class HomeController : Controller
     {
+        List<Adhaar> adhaarList = new List<Adhaar>();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -21,14 +22,15 @@ namespace FormSubmission.Controllers
         }
 
         [HttpPost]
-        public IActionResult? Index(Adhaar adhaar)
+        [Route("showdata")]
+        public IActionResult? DisplayData(Adhaar adhaar)
         {
-          
-          string name = adhaar.Name;
-          int adhaarNo = adhaar.AdhaarNo;
-          return View();
+            adhaarList.Add(adhaar);
+            return View(adhaarList);
            
         }
+
+        
 
         public IActionResult Privacy()
         {

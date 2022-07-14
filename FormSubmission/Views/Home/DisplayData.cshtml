@@ -1,0 +1,8 @@
+﻿@model List<Adhaar>
+
+@foreach(var adhaarData in Model){
+    <div>
+        <b>Name:</b><small> @adhaarData.Name</small><br>
+        <b>Adhaar Number:</b><small> @adhaarData.AdhaarNo</small>
+    </div>
+}

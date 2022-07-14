@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_Practice", "SimpleDashboard\MVC_Practice.csproj", "{A3074CBD-6832-41D0-9173-CC2E05E51059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormSubmission", "FormSubmission\FormSubmission.csproj", "{1031B084-3170-42F7-99F1-90BEE6E246A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormSubmission", "FormSubmission\FormSubmission.csproj", "{1031B084-3170-42F7-99F1-90BEE6E246A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_App", "CRUD_App\CRUD_App.csproj", "{AA6B7B32-F863-435C-A13A-AD41A62159DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1031B084-3170-42F7-99F1-90BEE6E246A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1031B084-3170-42F7-99F1-90BEE6E246A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1031B084-3170-42F7-99F1-90BEE6E246A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6B7B32-F863-435C-A13A-AD41A62159DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6B7B32-F863-435C-A13A-AD41A62159DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6B7B32-F863-435C-A13A-AD41A62159DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6B7B32-F863-435C-A13A-AD41A62159DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
